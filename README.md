@@ -6,7 +6,7 @@ This repo represents fixes and instructions needed to sucessfully build latest M
 It additionally provides python wheel (aarch64) for immediate installation.
 
 ## Instructions
-Instructions are inspired by **[PINTO0309's](https://github.com/PINTO0309)** avaliable at **[Verification of mediapipe's GPU-enabled .pbtxt processing method](https://zenn.dev/pinto0309/scraps/71368ef3d74438)**
+Instructions are inspired by **[PINTO0309's](https://github.com/PINTO0309)** notes avaliable at **[Verification of mediapipe's GPU-enabled .pbtxt processing method](https://zenn.dev/pinto0309/scraps/71368ef3d74438)**.
 
 
 ## Installation
