@@ -10,18 +10,22 @@ It additionally provides python wheel (aarch64) for immediate installation.
 Instructions are inspired by **[PINTO0309's](https://github.com/PINTO0309)** notes avaliable at **[Verification of mediapipe's GPU-enabled .pbtxt processing method](https://zenn.dev/pinto0309/scraps/71368ef3d74438)**.
 ...Work In Progres...
 
-Do not forget set g++8:
+```bash
+### Do not forget set g++8:
 $ sudo update-alternatives --config g++
 
-Shortcut for fast test: 
+### Shortcut for fast test: 
 $ pip3 uninstall -y mediapipe && sudo python3 setup.py gen_protos && sudo python3 setup.py bdist_wheel && python3 -m pip install dist/mediapipe-0.8.9_cuda102-cp36-cp36m-linux_aarch64.whl
+```
 
 ## Installation - Python Wheel
 Binary (v0.8.9) is available in https://github.com/anion0278/mediapipe/tree/master/dist. 
-Remove previous versions of Mediapipe (if it was installed):
+```bash
+### Remove previous versions of Mediapipe (if it was installed):
 $ pip3 uninstall -y mediapipe
-Install new version with (run commands from mediapipe dir):
+### Install new version with (run commands from mediapipe dir):
 $ python3 -m pip install dist/mediapipe-0.8.9_cuda102-cp36-cp36m-linux_aarch64.whl
+```
 
 ## Acknowledgement
 Inspired by **[jiuqiant's](https://github.com/jiuqiant)** **[mediapipe_python_aarch64](https://github.com/jiuqiant/mediapipe_python_aarch64)** and **[PINTO0309's](https://github.com/PINTO0309)** **[mediapipe-bin](https://github.com/PINTO0309/mediapipe-bin)**. You are awesome guys!
