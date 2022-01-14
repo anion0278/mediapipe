@@ -1,10 +1,18 @@
----
-layout: default
-title: Home
-nav_order: 1
----
-
 ![MediaPipe](docs/images/mediapipe_small.png)
+
+Fork of MediaPipe (v0.8.9) for Jetson Nano (JetPack 4.6) CUDA (10.2)
+--------------------------------------------------------------------------------
+This repo represents fixes and instructions needed to sucessfully build latest MediaPipe for Jetson Nano with CUDA support.
+It additionally provides python wheel (aarch64) for immediate installation.
+
+## Instructions
+Instructions are inspired by **[PINTO0309's](https://github.com/PINTO0309)** avaliable at **[Verification of mediapipe's GPU-enabled .pbtxt processing method](https://zenn.dev/pinto0309/scraps/71368ef3d74438)**
+
+
+## Installation
+
+## Acknowledgement
+Inspired by **[jiuqiant's](https://github.com/jiuqiant)** **[mediapipe_python_aarch64](https://github.com/jiuqiant/mediapipe_python_aarch64)** and **[PINTO0309's](https://github.com/PINTO0309)** **[mediapipe-bin](https://github.com/PINTO0309/mediapipe-bin)**. You are awesome guys!
 
 --------------------------------------------------------------------------------
 
