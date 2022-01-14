@@ -2,7 +2,7 @@
 
 # Fork of Google's MediaPipe (v0.8.9) for Jetson Nano (JetPack 4.6) CUDA (10.2)
 *   Currently hand landmarks detection only!
-# Google's MediaPipe: https://github.com/google/mediapipe 
+\Google's MediaPipe: https://github.com/google/mediapipe 
 --------------------------------------------------------------------------------
 This repo represents fixes and instructions needed to sucessfully build latest MediaPipe for Jetson Nano with CUDA support.
 It additionally provides python wheel (aarch64) for immediate installation.
