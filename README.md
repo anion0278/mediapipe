@@ -1,6 +1,6 @@
 ![MediaPipe](docs/images/mediapipe_small.png)
 
-Fork of MediaPipe (v0.8.9) for Jetson Nano (JetPack 4.6) CUDA (10.2)
+Fork of Google's MediaPipe (v0.8.9) for Jetson Nano (JetPack 4.6) CUDA (10.2)
 *   Currently hand landmarks detection only!
 --------------------------------------------------------------------------------
 This repo represents fixes and instructions needed to sucessfully build latest MediaPipe for Jetson Nano with CUDA support.
