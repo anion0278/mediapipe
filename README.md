@@ -1,7 +1,7 @@
 ![MediaPipe](docs/images/mediapipe_small.png)
 
 Fork of MediaPipe (v0.8.9) for Jetson Nano (JetPack 4.6) CUDA (10.2)
-*Currently hand landmarks detection only!
+*   Currently hand landmarks detection only!
 --------------------------------------------------------------------------------
 This repo represents fixes and instructions needed to sucessfully build latest MediaPipe for Jetson Nano with CUDA support.
 It additionally provides python wheel (aarch64) for immediate installation.
