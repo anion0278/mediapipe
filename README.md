@@ -33,6 +33,8 @@ Please note, that official selfie segmentation example from https://google.githu
 ```python
 ### skip 3rd dimension in resulting mask
 output_image = np.where(condition[:,:,0,:], fg_image, bg_image)
+### and the same for video input example
+output_image = np.where(condition[:,:,0,:], image, bg_image)
 ```
 
 ## Acknowledgement
