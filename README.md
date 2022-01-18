@@ -2,7 +2,7 @@
 Google's MediaPipe: https://github.com/google/mediapipe 
 
 # Fork of Google's MediaPipe (v0.8.9) for Jetson Nano (JetPack 4.6) CUDA (10.2)
-*   Currently hand landmarks detection only!
+*   Currently hand landmarks detection and selfie segmentation only!
 --------------------------------------------------------------------------------
 This repo represents fixes and instructions needed to sucessfully build latest MediaPipe for Jetson Nano with CUDA support.
 It additionally provides python wheel (aarch64) for immediate installation.
@@ -26,6 +26,13 @@ Binary (v0.8.9) is available in https://github.com/anion0278/mediapipe/tree/mast
 $ pip3 uninstall -y mediapipe
 ### Install new version with (run commands from mediapipe dir):
 $ python3 -m pip install dist/mediapipe-0.8.9_cuda102-cp36-cp36m-linux_aarch64.whl
+```
+
+## Running examples - notes
+Please note, that official selfie segmentation example from https://google.github.io/mediapipe/solutions/selfie_segmentation.html requires changes in order to make it work: 
+```python
+### skip 3rd dimension in resulting mask
+output_image = np.where(condition[:,:0,:], fg_image, bg_image)
 ```
 
 ## Acknowledgement
