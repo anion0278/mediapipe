@@ -32,7 +32,7 @@ $ python3 -m pip install dist/mediapipe-0.8.9_cuda102-cp36-cp36m-linux_aarch64.w
 Please note, that official selfie segmentation example from https://google.github.io/mediapipe/solutions/selfie_segmentation.html requires changes in order to make it work: 
 ```python
 ### skip 3rd dimension in resulting mask
-output_image = np.where(condition[:,:0,:], fg_image, bg_image)
+output_image = np.where(condition[:,:,0,:], fg_image, bg_image)
 ```
 
 ## Acknowledgement
